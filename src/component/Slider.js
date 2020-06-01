@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import {  Row, Col } from 'react-bootstrap';
+import {  Row, Col, Container } from 'react-bootstrap';
 
 
 class Slider extends React.Component {
@@ -19,8 +19,9 @@ class Slider extends React.Component {
 		];
 
 		return (
+			<div className="slider">
+			<Container>
 				<Row>
-					<Col xs={12}>
 						<Carousel>
 							{carouselList.map((carouselitem) => {
 								return (
@@ -34,8 +35,10 @@ class Slider extends React.Component {
 								);
 							})}
 						</Carousel>
-					</Col>
+					
 				</Row>
+				</Container>
+				</div>
 		);
 	}
 }

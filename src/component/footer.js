@@ -5,11 +5,12 @@ class Footer extends React.Component {
 	render() {
 		return (
 			<footer>
-				<Container>
+			 <Container>
+				
 					<Row>
                         <Col sm={9}>
                         <div className="footer-logo">
-							<img src={logo} style={{width:"50%"}} alt="ini" />
+							<img src={logo} style={{width:"25%"}} alt="ini" />
 							<p>Keberkahan di Setiap Transaksi</p>
 						</div>
                         </Col>
@@ -21,8 +22,9 @@ class Footer extends React.Component {
 						</ul>
                         </Col>
 					</Row>
-				</Container>
-			</footer>
+					
+				 </Container> 
+				</footer>			
 		);
 	}
 }
