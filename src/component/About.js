@@ -8,7 +8,7 @@ class About extends React.Component {
 				 <Container className="aboutBox">
 					<Row>
                         <Col sm={2}>
-                            <h1>About <br/>Us</h1>
+                            <h1>Tentang <br/>Kami</h1>
                         </Col>
                         <Col sm={10}>
                             <p>lorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsom<br/>

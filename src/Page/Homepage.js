@@ -14,9 +14,12 @@ class Homepage extends React.Component {
       <div>
         <Header/>
          <Slider/>
-       <Main/>
-       <Main/>
-       <Main/>
+       <Main 
+        category="Kacang"/>
+       <Main
+       category="Beras"/>
+       <Main
+       category="Roti Kering"/>
        <Footer/>
       </div>
    );

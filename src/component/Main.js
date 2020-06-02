@@ -17,7 +17,7 @@ class Main extends React.Component {
 							<Col sm={2} className="nama-catalog">
 								{/* <div className="nama-catalog"> */}
 								<h1>
-									Our <br /> Catalog
+									{this.props.category}
 								</h1>
 								{/* </div> */}
 							</Col>

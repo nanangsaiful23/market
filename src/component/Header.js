@@ -36,8 +36,7 @@ class Header extends React.Component {
 								<ButtonGroup aria-label="Basic example">
 									<Link to="/Catalog"><Button variant="outline-secondary" href="">Produk</Button></Link>
 									<Link to="/About" ><Button variant="outline-secondary">Tentang</Button></Link>
-									<Button variant="outline-secondary">Kontak</Button>
-									
+									<Link to="/Contact"><Button variant="outline-secondary">Kontak</Button> </Link>									
 								</ButtonGroup>
 							</div>
 						</Col>
