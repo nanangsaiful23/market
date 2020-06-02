@@ -26,7 +26,9 @@ class Header extends React.Component {
 										// aria-describedby="basic-addon2"
 									/>
 									<InputGroup.Append>
+										<Link to="/Catalog">
 										<Button variant="outline-secondary">Cari</Button>
+										</Link>
 									</InputGroup.Append>
 								</InputGroup>
 							</div>

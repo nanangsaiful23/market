@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 
 class ViewProducts extends React.Component {
@@ -64,13 +65,14 @@ class ViewProducts extends React.Component {
 								return (
 									// Panggil component Language dan teruskan props ke component tersebut
 									// <div className="img-catalog">
-
+									<Link to="/Product">
 									<img
 										src={productItem.image}
 										alt={productItem.name}
 										width="25%"
 										className="catalog_image"
 									/>
+									</Link>
 
 									// </div>
 								);

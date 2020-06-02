@@ -50,6 +50,11 @@ footer{
 .products{
   background-color: burlywood;
 }
+.productBox{
+  padding: 5%;
+  background-color: lightsalmon;
+  border-radius: 3%;
+}
 
 .latarbelakang{
   background-color: burlywood;

@@ -7,6 +7,7 @@ import Aboutpage from '../Page/Aboutpage';
 import Catalogpage from '../Page/Catalogpage';
 
 import Contactpage from '../Page/Contactpage';
+import Productpage from '../Page/Productpage';
 
 export default function Routes() {
   return (
@@ -15,6 +16,7 @@ export default function Routes() {
       <Route path="/About" component={Aboutpage} />
       <Route path="/Catalog" component={Catalogpage}/>
       <Route path="/Contact" component={Contactpage}/>
+      <Route path="/Product" component={Productpage}/>
       {/* <Route path="/dashboard" component={Dashboard} isPrivate /> */}
       {/* redirect user to SignIn page if route does not exist and user is not authenticated */}
       <Route component={Homepage} />
