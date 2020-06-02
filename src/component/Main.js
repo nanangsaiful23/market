@@ -34,7 +34,7 @@ class Main extends React.Component {
 						})}
 						</Col>
 						<Col sm={1} className="next-catalog">
-							<a>n</a>
+							<a href="/catalog">n</a>
 						</Col>
 					</Row>
 					

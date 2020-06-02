@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Container, Row, Col, InputGroup, FormControl, Button ,ButtonGroup, Navbar} from 'react-bootstrap';
 import Logo from './icon/logontn.png';
 class Header extends React.Component {
@@ -11,8 +12,8 @@ class Header extends React.Component {
 					<Row >
 						<Col  xs={2} sm={2}>
 							<div className="header-logo">
-								<a href="/"><img src={Logo} alt="logo" style={{ width: '100%' }}/></a>
-
+								<Link to="/"><img src={Logo} alt="logo" style={{ width: '100%' }}/></Link>
+								
 								
 							</div>
 						</Col>
@@ -34,7 +35,8 @@ class Header extends React.Component {
 							<div className="header-menu">
 								<ButtonGroup aria-label="Basic example">
 									<Button variant="outline-secondary" href="">Catalog</Button>
-									<Button variant="outline-secondary"href="/About">About</Button>
+									<Link to="/About" ><Button variant="outline-secondary">About</Button></Link>
+									
 									<Button variant="outline-secondary">Contact</Button>
 								</ButtonGroup>
 							</div>
