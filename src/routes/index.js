@@ -4,12 +4,14 @@ import { Switch, Route } from 'react-router';
 
 import Homepage from '../Page/Homepage';
 import Aboutpage from '../Page/Aboutpage';
+import Catalogpage from '../Page/Catalogpage';
 
 export default function Routes() {
   return (
     <Switch>
       <Route path="/" exact component={Homepage} />
       <Route path="/About" component={Aboutpage} />
+      <Route path="/Catalog" component={Catalogpage}/>
       {/* <Route path="/dashboard" component={Dashboard} isPrivate /> */}
       {/* redirect user to SignIn page if route does not exist and user is not authenticated */}
       <Route component={Homepage} />

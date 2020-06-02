@@ -34,10 +34,10 @@ class Header extends React.Component {
 						<Col sm={3}>
 							<div className="header-menu">
 								<ButtonGroup aria-label="Basic example">
-									<Button variant="outline-secondary" href="">Catalog</Button>
+									<Link to="/Catalog"><Button variant="outline-secondary" href="">Catalog</Button></Link>
 									<Link to="/About" ><Button variant="outline-secondary">About</Button></Link>
-									
 									<Button variant="outline-secondary">Contact</Button>
+									
 								</ButtonGroup>
 							</div>
 						</Col>
