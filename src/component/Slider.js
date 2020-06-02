@@ -28,8 +28,8 @@ class Slider extends React.Component {
 									<Carousel.Item key={carouselitem.img}>
 										<img className="d-block w-100"  src={carouselitem.img} alt={carouselitem.caption1}/>
 										<Carousel.Caption>
-											<h3>{carouselitem.caption1}</h3>
-											<p>{carouselitem.caption2}</p>
+											{/* <h3>{carouselitem.caption1}</h3>
+											<p>{carouselitem.caption2}</p> */}
 										</Carousel.Caption>
 									</Carousel.Item>
 								);

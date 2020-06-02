@@ -17,7 +17,7 @@ class Header extends React.Component {
 								
 							</div>
 						</Col>
-						<Col xs={9} sm={7} >
+						<Col xs={10} sm={7} >
 							<div className="header-search">
 								<InputGroup className="mb-3">
 									<FormControl 
@@ -33,7 +33,7 @@ class Header extends React.Component {
 								</InputGroup>
 							</div>
 						</Col>
-						<Col sm={3}>
+						<Col xs={12}sm={3}>
 							<div className="header-menu">
 								<ButtonGroup aria-label="Basic example">
 									<Link to="/Catalog"><Button variant="outline-secondary" href="">Produk</Button></Link>

@@ -33,8 +33,13 @@ body{
 .catalog_image{
   padding: 5px;
 }
+
 .next-catalog{
   background-color: coral;
+}
+
+.next-catalog p{
+  color:khaki;
 }
 
 .aboutBox{
@@ -46,7 +51,9 @@ footer{
   background-color:khaki;
   padding-top: 3%;
 }
-
+.footer-list li{
+  color:black;
+}
 .products{
   background-color: burlywood;
 }

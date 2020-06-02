@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import logo from './icon/logontn.png';
+import { Link } from 'react-router-dom';
 
 class Footer extends React.Component {
 	render() {
@@ -26,10 +27,12 @@ class Footer extends React.Component {
 							{/* <SimpleMap/> */}
 						</Col>
 						<Col sm={3}>
-                        <ul className="footer-list">
-							<li>Produk</li>
-							<li>Tentang Kami</li>
-							<li>Kontak</li>
+                        <ul className="footer-list" >
+							<Link to="/Product"><li>Produk</li></Link>
+							<Link to="/About"><li>Tentang Kami</li>
+							</Link>
+							<Link><li>Kontak</li></Link>
+							
 						</ul>
                         </Col>
 					</Row>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 class Main extends React.Component {
 	render() {
@@ -33,9 +34,13 @@ class Main extends React.Component {
 							);
 						})}
 						</Col>
+						
 						<Col sm={1} className="next-catalog">
-							<a href="/catalog">n</a>
+						<Link to="/catalog" >	
+								<p>Lihat <br/> lebih <br/> banyak</p>
+								</Link>	
 						</Col>
+						
 					</Row>
 					
 				 </Container>
