@@ -14,7 +14,7 @@ header{
   background-color: cornsilk;
 }
 .catalog{
-  background-color:coral;
+  background-color:burlywood;
   width: 100%;
   border: solid burlywood;
 }
@@ -37,7 +37,4 @@ header{
 }
 footer{
   background-color:khaki;
-}
-.container{
-  margin: 0px;
 }
