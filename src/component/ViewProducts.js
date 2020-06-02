@@ -26,7 +26,7 @@ class ViewProducts extends React.Component {
 				<Container>
 					<Row>
 						<Col sm={2} className="filterProduks">
-							<h2>Filter Products</h2>
+							<h2>Filter Produk</h2>
 							<Form>
 								<Form.Group controlId="formGridNamaProduct">
 									<Form.Label>Nama</Form.Label>
@@ -34,7 +34,7 @@ class ViewProducts extends React.Component {
 								</Form.Group>
 
 								<Form.Group controlId="formGridCategory">
-									<Form.Label>Category</Form.Label>
+									<Form.Label>Categori</Form.Label>
 									<Form.Control as="select" value="Choose...">
 										<option>Choose...</option>
 										<option>...</option>
@@ -55,7 +55,7 @@ class ViewProducts extends React.Component {
 								</Form.Row>
 
 								<Button variant="warning" type="submit">
-									Submit
+									Filter
 								</Button>
 							</Form>
 						</Col>

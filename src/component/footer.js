@@ -16,9 +16,9 @@ class Footer extends React.Component {
                         </Col>
 						<Col sm={3}>
                         <ul className="footer-list">
-							<li>Catalog</li>
-							<li>About</li>
-							<li>Contact</li>
+							<li>Produk</li>
+							<li>Tentang Kami</li>
+							<li>Kontak</li>
 						</ul>
                         </Col>
 					</Row>

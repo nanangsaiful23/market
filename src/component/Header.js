@@ -26,7 +26,7 @@ class Header extends React.Component {
 										// aria-describedby="basic-addon2"
 									/>
 									<InputGroup.Append>
-										<Button variant="outline-secondary">Button</Button>
+										<Button variant="outline-secondary">Cari</Button>
 									</InputGroup.Append>
 								</InputGroup>
 							</div>
@@ -34,9 +34,9 @@ class Header extends React.Component {
 						<Col sm={3}>
 							<div className="header-menu">
 								<ButtonGroup aria-label="Basic example">
-									<Link to="/Catalog"><Button variant="outline-secondary" href="">Catalog</Button></Link>
-									<Link to="/About" ><Button variant="outline-secondary">About</Button></Link>
-									<Button variant="outline-secondary">Contact</Button>
+									<Link to="/Catalog"><Button variant="outline-secondary" href="">Produk</Button></Link>
+									<Link to="/About" ><Button variant="outline-secondary">Tentang</Button></Link>
+									<Button variant="outline-secondary">Kontak</Button>
 									
 								</ButtonGroup>
 							</div>
