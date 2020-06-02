@@ -54,7 +54,7 @@ class ViewProducts extends React.Component {
 									</Form.Group>
 								</Form.Row>
 
-								<Button variant="primary" type="submit">
+								<Button variant="warning" type="submit">
 									Submit
 								</Button>
 							</Form>
