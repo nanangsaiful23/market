@@ -1,21 +1,31 @@
 import React from 'react';
-import '../App.css';
-import Header from './Header';
-
-import Footer from './footer';
-
+import { Container, Row, Col } from 'react-bootstrap';
 
 class About extends React.Component {
-  // Nyatakan constructor dibawah
-  
-  render() {
-    return(
-      <div>
-        <Header/>
-         
-       <Footer/>
-      </div>
-   );
-  }
+	render() {
+		return (
+			<div className="latarbelakang">
+				 <Container className="aboutBox">
+					<Row>
+                        <Col sm={2}>
+                            <h1>About <br/>Us</h1>
+                        </Col>
+                        <Col sm={10}>
+                            <p>lorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsom<br/>
+                            lorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsom<br/>
+                            lorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsom<br/>
+                            lorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsom<br/>
+                            lorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsom<br/>
+                            lorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsom<br/>
+                            lorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsom<br/>
+                            lorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsomlorem ipsom<br/>
+                            </p>
+                        </Col>
+					</Row>
+				 </Container>
+				</div>
+		);
+	}
 }
+
 export default About;

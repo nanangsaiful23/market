@@ -36,6 +36,19 @@ body{
 .next-catalog{
   background-color: coral;
 }
+
+.aboutBox{
+  background-color: lightsalmon;
+  border-radius: 3%;
+}
+
 footer{
   background-color:khaki;
+}
+
+
+.latarbelakang{
+  background-color: burlywood;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }

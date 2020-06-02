@@ -1,9 +1,9 @@
 import React from 'react';
 import '../App.css';
-import Header from './Header';
-import Slider from './Slider';
-import Main from './Main';
-import Footer from './footer';
+import Header from '../component/Header';
+import Slider from '../component/Slider';
+import Main from '../component/Main';
+import Footer from '../component/Footer';
 
 
 class Homepage extends React.Component {
