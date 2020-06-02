@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, InputGroup, FormControl, Button ,ButtonGroup, Navbar} from 'react-bootstrap';
 import Logo from './icon/logontn.png';
-import { useMediaQuery } from 'react-responsive';
 class Header extends React.Component {
 	render() {
         
@@ -12,7 +11,9 @@ class Header extends React.Component {
 					<Row >
 						<Col  xs={2} sm={2}>
 							<div className="header-logo">
-								<img src={Logo} alt="logo" style={{ width: '100%' }} />
+								<a href="/"><img src={Logo} alt="logo" style={{ width: '100%' }}/></a>
+
+								
 							</div>
 						</Col>
 						<Col xs={9} sm={7} >
@@ -32,8 +33,8 @@ class Header extends React.Component {
 						<Col sm={3}>
 							<div className="header-menu">
 								<ButtonGroup aria-label="Basic example">
-									<Button variant="outline-secondary">Catalog</Button>
-									<Button variant="outline-secondary">About</Button>
+									<Button variant="outline-secondary" href="">Catalog</Button>
+									<Button variant="outline-secondary"href="/About">About</Button>
 									<Button variant="outline-secondary">Contact</Button>
 								</ButtonGroup>
 							</div>

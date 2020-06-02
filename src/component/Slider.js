@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import {  Row, Col, Container } from 'react-bootstrap';
+import {  Row, Container } from 'react-bootstrap';
 
 
 class Slider extends React.Component {

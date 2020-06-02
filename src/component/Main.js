@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import logo from './icon/logontn.png';
+
 class Main extends React.Component {
 	render() {
 		const catalogList = [
