@@ -2,8 +2,9 @@ body{
   margin: 0px;
   padding: 0px;
 }
-header{
+.navHeader{
   border-bottom: solid darkslategrey;
+  background-color: khaki;
 }
 
 .slider{

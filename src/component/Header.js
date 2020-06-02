@@ -1,12 +1,13 @@
 import React from 'react';
-import { Container, Row, Col, InputGroup, FormControl, Button ,ButtonGroup} from 'react-bootstrap';
+import { Container, Row, Col, InputGroup, FormControl, Button ,ButtonGroup, Navbar} from 'react-bootstrap';
 import Logo from './icon/logontn.png';
 import { useMediaQuery } from 'react-responsive';
 class Header extends React.Component {
 	render() {
         
 		return (
-			<header>
+			<Navbar sticky="top" className="navHeader">
+			{/* <header> */}
 				 <Container >
 					<Row >
 						<Col  xs={2} sm={2}>
@@ -23,7 +24,7 @@ class Header extends React.Component {
 										// aria-describedby="basic-addon2"
 									/>
 									<InputGroup.Append>
-										<Button  variant="outline-warning">Button</Button>
+										<Button variant="outline-secondary">Button</Button>
 									</InputGroup.Append>
 								</InputGroup>
 							</div>
@@ -31,15 +32,16 @@ class Header extends React.Component {
 						<Col sm={3}>
 							<div className="header-menu">
 								<ButtonGroup aria-label="Basic example">
-									<Button variant="warning">Catalog</Button>
-									<Button variant="warning">About</Button>
-									<Button variant="warning">Contact</Button>
+									<Button variant="outline-secondary">Catalog</Button>
+									<Button variant="outline-secondary">About</Button>
+									<Button variant="outline-secondary">Contact</Button>
 								</ButtonGroup>
 							</div>
 						</Col>
 					</Row>
 				 </Container>
-				</header>
+				{/* </header> */}
+				</Navbar>
 		);
 	}
 }
