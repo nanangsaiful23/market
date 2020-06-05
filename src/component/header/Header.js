@@ -56,10 +56,10 @@ class Header extends React.Component {
 				<Mobile>
 					<Container>
 						<Row>
-							<Col xs={2}>
+							<Col xs={3}>
 								<Headerlogo />
 							</Col>
-							<Col xs={8}>
+							<Col xs={7}>
 								<Headersearch />
 							</Col>
 							<Col xs={1}>

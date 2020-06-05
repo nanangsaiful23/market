@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 class SideNavPage extends React.Component {
 	render() {
 		let drawerClasses = 'side-drawer';
@@ -8,16 +8,16 @@ class SideNavPage extends React.Component {
 		}
 		return (
 			<div className={drawerClasses}>
-				<a href="/Catalog" className="btnnav">
+				<Link to="/Catalog" className="btnnav">
 					Produk
-				</a>
+				</Link>
 
-				<a href="/Contact" className="btnnav">
+				<Link to="/Contact" className="btnnav">
 					Kontak
-				</a>
-				<a href="/About" className="btnnav">
+				</Link>
+				<Link to="/About" className="btnnav">
 					Tentang
-				</a>
+				</Link>
 			</div>
 		);
 	}

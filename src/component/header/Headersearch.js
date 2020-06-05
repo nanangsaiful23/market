@@ -1,7 +1,8 @@
 import React from 'react';
 import {  FormControl, InputGroup, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 class Headersearch extends React.Component {
 	render() {
 		return (
@@ -14,7 +15,7 @@ class Headersearch extends React.Component {
 					/>
 					<InputGroup.Append>
 						<Link to="/Catalog">
-							<Button variant="outline-secondary">Cari</Button>
+							<Button variant="outline-secondary"><FontAwesomeIcon icon={faSearch} /></Button>
 						</Link>
 					</InputGroup.Append>
 				</InputGroup>
