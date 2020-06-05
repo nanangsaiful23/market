@@ -1,0 +1,47 @@
+.navHeader {
+	border-bottom: solid darkslategrey;
+	background-color: khaki;
+}
+
+.side-drawer {
+	height: 100%;
+	background: white;
+	box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 70%;
+	max-width: 400px;
+	z-index: 200;
+	transform: translateX(-100%);
+	transition: transform 0.3s ease-out;
+}
+
+.btnnav{
+  width: 100%;
+  height: 5%;
+}
+.side-drawer a{
+  display: block;
+  color: black;
+  border-bottom:solid burlywood;
+  float: none;
+  text-align: center;
+ 
+}
+.side-drawer a:active,
+.side-drawer a:hover{
+  color: coral;
+}
+.side-drawer.open {
+	transform: translateX(0);
+}
+.backdrop {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 100;
+}
