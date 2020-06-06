@@ -1,0 +1,29 @@
+.catalog{
+    background-color:burlywood;
+    width: 100%;
+    border: solid burlywood;
+    text-align: center;
+  }
+  .nama-catalog{
+    background-color: coral
+    ;
+    display: block;
+    line-height:100%;
+  }
+  
+  .img-catalog{
+    text-align: center;
+    background-color: darksalmon;
+  }
+  .catalog_image{
+    padding: 5px;
+  }
+  
+  .next-catalog{
+    background-color: coral;
+  }
+  
+  .next-catalog p{
+    color:khaki;
+  }
+  

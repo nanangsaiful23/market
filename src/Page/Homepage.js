@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import Header from '../component/header/Header';
 import Slider from '../component/Slider';
-import Main from '../component/Main';
+import Categoridisp from '../component/categoriDisp/Categoridisp';
 import Footer from '../component/Footer';
 
 
@@ -14,11 +14,11 @@ class Homepage extends React.Component {
       <div>
         <Header/>
          <Slider/>
-       <Main 
+       <Categoridisp 
         category="Kacang"/>
-       <Main
+       <Categoridisp
        category="Beras"/>
-       <Main
+       <Categoridisp
        category="Roti Kering"/>
        <Footer/>
       </div>
